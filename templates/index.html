@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!-- C20431154 Caoimhe Hennessy -->
+<html>
+<style>
+ div.float-container::after {
+    padding: 10px;
+    clear: both;
+}
+
+section.banner{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    float: center;
+    clear: both;
+}
+
+section.first{
+    height: 50px;
+    width: 600px;
+    display: inline-block;
+    float: left;
+    clear: both;
+}
+
+section.second{
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+    float: left;
+    clear: both;
+}
+
+section.third{
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+    float: left;
+}
+
+section.fourth{
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    display: inline-block;
+    top: 250px;
+    left: 700px;
+}
+
+section.fifth{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+    top: 370px;
+    left: 700px;
+}
+
+section.sixth{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+    top: 360px;
+    left: 840px;
+}
+
+section.seventh{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    top: 400px;
+    left: 700px;
+}
+
+section.eight{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    top: 410px;
+    left: 735px;
+}
+
+section.search{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    top: 20px;
+    left: 1050px;
+}
+
+
+h1{
+    color: black;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: rgb(61, 57, 57);
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    color: rgb(61, 57, 57);
+    font-size: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+  font-size: 80%;
+  color:rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+</style>
+
+<script>
+    function myFunction() {
+    document.getElementById("frm1").submit();
+    }
+</script>
+<body>
+<div class="float-container">
+    <section class="banner">
+    <a href="https://www.bbc.com/news"><img src="topbanner.jpg"></a>
+    </section>
+</div>
+
+<div class="float-container">
+    <section class="banner">
+        <a href="https://geology.com/world/world-map.shtml"><img src="lowbanner.jpg"></a>
+    </section>
+</div>
+
+
+
+<div class="float-container">        
+    <section class="first">
+        <div>
+            <h1>New US shutdown looms as talks stall</h1>
+        </div>
+    </section>
+</div>
+
+<div class="float-container">   
+    <section class="second">
+        <div>
+            <p>Negotiators hoping to hit a friday deadline disagree on issues including money for a border wall.</p>
+            <p>1 Hour Ago <font color="red">US & Canada</font></p>
+            <hr style="padding-left: 0; width:40%; color: red;">
+            <ul style="list-style: none; padding-left: 0; font-size: 80%; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                <li> What is a shutdown?</li><br>
+                <li> How the last shutdown hurt</li><br>
+                <li> How tech fills border wall gaps</li><br>
+                <li> Trump's wall - in seven charts</li>
+            </ul>
+        </div>
+    </section>
+</div> 
+
+<div class="float-container">   
+    <section class="third">
+        <div>
+            <br>
+            <a href="https://www.bbc.com/news/world-us-canada-46824649"><img src="mainnews.jpg"></a>
+        </div>
+    </section>
+</div> 
+
+
+<div class="float-container">   
+    <section class="fourth">
+        <div>
+            <h2>Watch/Listen</h2>
+            <p>
+                <a href="https://www.bbc.co.uk/sounds/play/live:bbc_world_service"><img src="live.jpg"></a> World Service Radio
+            </p>
+            <br>
+        </div>
+    </section>
+</div> 
+
+<div class="float-container">   
+    <section class="fifth">
+        <div>
+            <a href="https://youtu.be/cMsdeskxacI"><img src="video1.jpg"></a>
+            <a href="https://youtu.be/0PsRRK0xitg"><img src="video2.jpg"></a>
+        </div>
+    </section>
+</div> 
+
+<div class="float-container">   
+    <section class="sixth">
+        <div>
+            <a href="https://www.bbc.com/news/av/world-middle-east-47196177"><h3> Iran marks revolution's 40th anniversary </h3></a>
+            <p font-size: 60%;>2 Hours Ago <font color="red">Middle East</font></p>
+            <a href="https://www.bbc.com/news/av/world-us-canada-47171130"><h3> Life in the poorest city of the US  </h3></a>
+            <p font-size: 60%;>11 February 2019 <font color="red">US & Canada</font></p>
+        </div>
+    </section>
+</div> 
+
+<div class="float-container">   
+    <section class="search">
+        <div>
+            <form>
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </section>
+</div>
+
+<div class="float-container">   
+    <section class="seventh">
+        <div>
+            <a href="https://youtu.be/cMsdeskxacI"><img src= "arrow.jpg"></a>
+            <p><br></p>
+            <a href="https://youtu.be/0PsRRK0xitg"><img src="arrow.jpg"></a>
+        </div>
+    </section>
+</div> 
+
+<div class="float-container">   
+    <section class="eight">
+        <div>
+            <p style="background-color:black; color: white;">0:53</p>
+            <p><br><br></p>
+            <p style="background-color:black; color: white;">3:11</p>
+        </div>
+    </section>
+</div> 
