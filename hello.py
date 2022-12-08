@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from flask import request
 app = Flask(__name__)
 
@@ -8,7 +8,7 @@ def hello():
 
 @app.route("/route32a")
 def route32a():
-    return "Hello from the 32A"
+    return render_template("index.html")
 
 @app.route("/route")
 def route():
